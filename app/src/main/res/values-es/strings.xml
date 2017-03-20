@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Quien quiere ser millonario</string>
+
+    <string name="play">Jugar</string>
+    <string name="settings">Ajustes</string>
+    <string name="scores">Puntuaciones</string>
+    <string name="credits">Creditos</string>
+    <string name="title_activity_credits">Creditos</string>
+
+    <string name="action_settings">Ajustes</string>
+    <string name="authors">Autor</string>
+    <string name="myname">Daniel Bastidas</string>
+    <string name="version">Version Android 4.1 (JELLY_BEAN)  API Level: 16 </string>
+    <string name="year">DBR 2015</string>
+    <string name="title_activity_settings">Ajustes</string>
+    <string name="name">Nombre: </string>
+    <string name="msgname">Escribe tu nombre aquí</string>
+    <string name="msgaskhelp">Cuantas veces puedes preguntar por ayuda: </string>
+    <string name="buttonaddfriend">Agregar a un amigo</string>
+    <string name="title_activity_scores">Puntuaciones</string>
+    <string name="title_activity_local">Local</string>
+    <string name="title_activity_play">Jugar</string>
+    <string name="playFor">Jugar por: </string>
+    <string name="question">Pregunta: </string>
+    <string name="noMoreHelp">No dispones de más ayuda</string>
+    <string name="preference_file">settings.xml</string>
+    <string name="wrongAnswer"> Respuesta incorrecta intentalo de nuevo! </string>
+    <string name="deleteScores">¿Quiere borrar todo el historial de puntuaciones?</string>
+    <string name="delete">Borrar Puntaciones</string>
+</resources>

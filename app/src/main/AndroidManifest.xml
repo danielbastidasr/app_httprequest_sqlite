@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.dani.who_wants_to_be_millionaire_" >
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:configChanges="orientation|keyboard"
+        android:theme="@style/AppTheme"
+        >
+
+        <activity
+            android:name=".Activities.Main_Menu"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.AppCompat.Light" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.credits"
+            android:label="@string/credits"
+            android:parentActivityName=".Activities.Main_Menu" >
+        </activity>
+        <activity
+            android:name=".Activities.Settings"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".Activities.Main_Menu" >
+        </activity>
+        <activity
+            android:name=".Activities.scores"
+            android:label="@string/title_activity_scores"
+            android:parentActivityName=".Activities.Main_Menu" >
+        </activity>
+        <activity
+            android:name=".Activities.Play"
+            android:label="@string/title_activity_play"
+            android:configChanges="orientation"
+            android:parentActivityName=".Activities.Main_Menu">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="entries">
+
+        <item>Select option</item>
+        <item>0 times</item>
+        <item>1 time </item>
+        <item>2 times</item>
+        <item>3 times</item>
+    </string-array>
+</resources>

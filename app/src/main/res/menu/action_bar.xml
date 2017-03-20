@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.Main_Menu">
+
+
+    <item
+        android:id="@+id/action_credits"
+        android:icon="@drawable/credits"
+        android:title="@string/credits"
+        app:showAsAction="always|withText"
+        />
+
+    <item
+        android:id="@+id/action_play"
+        android:title="@string/play"
+        android:icon="@drawable/play"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/settings"
+        android:icon="@drawable/settings"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/action_scores"
+        android:title="@string/scores"
+        android:icon="@drawable/scores"
+        app:showAsAction="never"
+        />
+
+
+
+
+
+</menu>

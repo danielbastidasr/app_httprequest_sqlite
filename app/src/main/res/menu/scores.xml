@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.android.dani.who_wants_to_be_millionaire_.Activities.scores"
+    android:id="@+id/scoresactionbar"
+    >
+
+
+
+</menu>
