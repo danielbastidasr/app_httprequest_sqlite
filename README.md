@@ -17,3 +17,6 @@ freeze the UI.
 
   We used sharedPreferences in order to save some basic information about our state, such as the question we are in or the money accumulated,
 to be able to use it in case screen rotation of our device (land to portrait ,or vicebersa).
+
+
+If you have any question or any problem feel free to contact me =D.
